@@ -3,7 +3,7 @@ import ServiceImg1 from '../../assets/images/ServiceImg1.png';
 import ServiceImg2 from '../../assets/images/ServiceImg2.png';
 import ServiceImg3 from '../../assets/images/ServiceImg3.png';
 import ReviewImg from '../../assets/images/ReviewImg.png';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { slideAnimation } from '../../config/motion';
 
 function Services() {
