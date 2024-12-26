@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    /* Custom scrollbar styles */
+    .scrollbar-thin::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+  
+    .scrollbar-thin::-webkit-scrollbar-track {
+      background: white;
+    }
+  
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background: #9f9f9f;
+      border-radius: 4px;
+    }
+  
+    .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+      background: #777879;
+    }
+  }
+  
+
+
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 1025px) {
+  .header, .categories, .unique, .about,
+ .feature, .cart, .wishlist, .footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .about p {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .header, .categories, .unique, .about,
+ .feature, .cart, .wishlist, .footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .about p {
+    max-width: 400px;
+  }
+}
+
