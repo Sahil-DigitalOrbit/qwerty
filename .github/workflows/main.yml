@@ -11,7 +11,9 @@ jobs:
       - uses: actions/checkout@v4
 
       # Step 2: Install dependencies and build
-      - run: npm ci && npm run build
+      - run: |
+          echo "CI=false" >> $GITHUB_ENV
+          npm ci && npm run build
 
       # Step 3: Deploy to Firebase Production (live) channel
       - uses: FirebaseExtended/action-hosting-deploy@v0
