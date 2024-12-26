@@ -28,7 +28,7 @@ export const ExploreModel = () => {
                     </div>
                 </div>
                 <div className='relative w-1/2 h-full'>
-                    <img src='https://s3-alpha-sig.figma.com/img/1adc/72f1/e25ca2db1ce3a0fadf21d0b9fccab6f4?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8JRnmeTjISmD9JL7FYGs~3UzXmW9vWC8I557shHw7fT8hK9m33-no274~c~nsMRO-uuxhhBofwKHQPSpfoUrqpLYsPM9ZDhNiwVEQLQavFiS3CM2w9KllupDua8aXK~6UICk0cSuw6ppMhXRvh5EUwWSV6nOT9Yxx4HT~Mt5ZWOKz8TTWZcbVzcW39CJ7SC5-iMzxGs5wRrttmEheZ9p5FAu-CrgRJqPLDDQ48itFRrUwtS~3iWzXtXmYFVABE78pOxvDwG5ZYo8y8LfrKsi-UQTZs0rDO1Qa2ufmgmcUx5K3d0eefE-Kjhpclk2xYlJ5fTJTZSKiWnUA4ubpolpw__' alt='Explore Image' 
+                    <img src='https://s3-alpha-sig.figma.com/img/1adc/72f1/e25ca2db1ce3a0fadf21d0b9fccab6f4?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8JRnmeTjISmD9JL7FYGs~3UzXmW9vWC8I557shHw7fT8hK9m33-no274~c~nsMRO-uuxhhBofwKHQPSpfoUrqpLYsPM9ZDhNiwVEQLQavFiS3CM2w9KllupDua8aXK~6UICk0cSuw6ppMhXRvh5EUwWSV6nOT9Yxx4HT~Mt5ZWOKz8TTWZcbVzcW39CJ7SC5-iMzxGs5wRrttmEheZ9p5FAu-CrgRJqPLDDQ48itFRrUwtS~3iWzXtXmYFVABE78pOxvDwG5ZYo8y8LfrKsi-UQTZs0rDO1Qa2ufmgmcUx5K3d0eefE-Kjhpclk2xYlJ5fTJTZSKiWnUA4ubpolpw__' alt='' 
                     className='h-full w-full object-cover bg-cover'/>
                     <button onClick={closeExplore} className='absolute top-2 right-2 border border-black'>
                         <AiOutlineClose className='text-black' />

@@ -13,7 +13,7 @@ function RecipeSection() {
                         <div className="relative w-[90%] md:w-[80%] mx-auto lg:w-full">
                             <div className='h-[250px] md:h-[380px] lg:h-[420px]'>
                                 <img src="https://s3-alpha-sig.figma.com/img/5350/f557/b39e29ae74b97aaa7f68308fb3916748?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bCXXaSGaOZYfTjxsJH9W4840wb6f5fEIhkOmH783xuOmOuwGyoWbZlckz~wk6ldnsNVr2u0ERmtTEnHuRt4OKi50eZqnZ906hzm3CPtEMhNq0GHqhXWwsbkwHZOdLWrldUCYnTJSOOoHBj-qPo5dtfXZyFGM0NZ~s-2wqcJ1lR0KGj8ImTglXvJyMrfdMOpWF~MJAQEzrta9bVj~1d3wwbrFvPM-1bcbAfsa0D078q06KEnhOTb~vxMUi7S79Gw~-ORtlxqy-gHi8Ye9PLfIyJkNR8OFxQWQ9rIsthQJ8jAERi1oSUu-j~W2u~X3qcMN2ENuNQ8yly-a2G0ohIsGHg__"
-                                    alt={`Recipe ${item}`}
+                                    alt=""
                                     className="w-full h-full object-cover bg-cover"
                                 />
                             </div>

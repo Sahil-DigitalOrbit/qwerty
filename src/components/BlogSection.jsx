@@ -8,7 +8,7 @@ function BlogSection() {
             <div className="flex flex-col items-center lg:items-start lg:flex-row w-full h-[480px]">
                 <div className='w-3/4 lg:w-1/2 h-full'>
                     <img src="https://s3-alpha-sig.figma.com/img/1b96/b31a/a36d54925fe7e8ab7af4226043a1f32b?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L7vhOU7kegDRPTC3ysKhyJVo696zILpws1GORb~x~SCu0ISgVqyu-bBs-drF3rKXMvWCRIrEz9qM387aZUtnuBnEL6-Ubbco9fd0n0mNPHShx2SdgHmEEkP7kg7jdjNx3gRLFaWx9Lr3aGDloQO78ucr5zqWn09AcZRxdKzoYgCQPNEhc8IBcjumsqFU42vOri3SPyDYa44XLvk67fH6GZP7Z7c9StKNTQeCi1NMC3EtuRzroosiDKsPqpeVpwwcvHJ~wFaX7iGaZBFenmvsS00Is02ldCl3tnulaHADMw0WDFFW9~RwFnRr3NcFrPRDjO5RBydw0Uz-VGk~In3rNw__"
-                        alt="Blog of the Week"
+                        alt=""
                         className="w-full h-full object-cover bg-cover"
                     />
                 </div>
@@ -35,7 +35,7 @@ function BlogSection() {
                         <div key={item} className='flex flex-col items-center lg:items-start gap-2'>
                             <div className='w-[315px] h-[310px] md:w-[500px] md:h-[450px] lg:w-[315px] lg:h-[410px] mb-4'>
                                 <img src="https://s3-alpha-sig.figma.com/img/773f/3bb2/180a62165e0ccf71066019be70eb3d17?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f7kXQCBT6g-wmpZrkr96n5HT9w~V7T~eQ6ZlFxUfPsoj9AjTIKdExNOn9p3DQ9sZTdFYgFeTFM~4978ghz5ow06tW20awyJMIFX0htkGpo2qYt-oBnq-Izw6uCzM5TWNH3F0OXkT6wkTBSvqlXtgQCA95xJCTZBFk828yz7GLw41JrpcY9Z6FbWSsxaG1uT6TLSBDfkFLw5FzfzcYssmK2li81QAFowkIlK~xAjAYsMjmIaxrTb4atz1MrnoDm0793SFpruah5PpvQQKG-SYir4CPQECtjHu6tt7cIC40HpF1O5907n2S9UDJWQ1zZbd4i2EsBpBwBAuHFE79rCpTQ__"
-                                    alt={`Blog ${item}`}
+                                    alt=""
                                     className="w-full h-full object-cover bg-cover"
                                 />
                             </div>

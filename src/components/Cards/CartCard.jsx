@@ -8,7 +8,7 @@ export const CartCard = ({ item }) => {
         <img
           className="h-full w-full object-cover rounded-xl lg:rounded-none"
           src={item.image[0]}
-          alt="product.img"
+          alt=""
         />
       </div>
       <div className="h-full flex flex-col justify-between lg:px-6 px-4 lg:w-2/5 font-bonaNova">

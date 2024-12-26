@@ -58,8 +58,8 @@
                     </div>
                     <div className='absolute -top-52 right-0'>
                         <div className=' relative w-[420px] h-[660px]'>
-                            <img className=' object-cover w-full h-full' src={FeatureImage1} />
-                            <img className='absolute bottom-12 right-200 w-60 h-60 object-cover bg-no-repeat transform -scale-x-100' src={FeatureImage2} />
+                            <img className=' object-cover w-full h-full' alt='' src={FeatureImage1} />
+                            <img className='absolute bottom-12 right-200 w-60 h-60 object-cover bg-no-repeat transform -scale-x-100' alt='' src={FeatureImage2} />
                         </div>
                     </div>
                 </div>

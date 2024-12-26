@@ -11,7 +11,7 @@ function Banner() {
     return (
         <div>
             <div className='hidden md:block relative h-[800px] w-full'> 
-                <img className='w-full h-full object-cover bg-no-repeat bg-cover' src={banner} alt='Website Banner' />
+                <img className='w-full h-full object-cover bg-no-repeat bg-cover' src={banner} alt='' />
                 <div className='absolute top-[160px] left-16 text-white space-y-6'>
                     <h4 className='text-[50px] font-baskervville font-[400]'>
                         Fresh From Our <span className='italic'>tea<br/> Gardens</span> to your cup
@@ -28,16 +28,16 @@ function Banner() {
             <div className='md:hidden block bg-[#DF8D42] relative overflow-hidden'>
                 <div className='relative flex flex-col items-center justify-center py-10'>
                     <div className='absolute w-[140px] h-[200px] top-20 right-10'>
-                        <img className='w-full h-full bg-cover rotate-[110deg] transform -scale-y-100 filter brightness-0 invert-[0.7] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-40' src={LeafImg} alt='Leaf Image'/>
+                        <img className='w-full h-full bg-cover rotate-[110deg] transform -scale-y-100 filter brightness-0 invert-[0.7] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-40' src={LeafImg} alt=''/>
                     </div>
                     <div className='absolute w-[140px] h-[200px] bottom-0 left-2'>
-                        <img className='w-full h-full bg-cover rotate-[25deg] transform -scale-y-100 filter brightness-0 invert-[0.7] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-40' src={LeafImg} alt='Leaf Image'/>
+                        <img className='w-full h-full bg-cover rotate-[25deg] transform -scale-y-100 filter brightness-0 invert-[0.7] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-40' src={LeafImg} alt=''/>
                     </div>
                     <h4 className='text-white text-[35px] font-[400] text-center z-10 w-[320px] font-baskervville'>
                         Fresh From Our <span className='italic'>Tea Gardens</span> To Your Cup
                     </h4>
                     <div className='w-[350px] h-[240px] z-10'>
-                        <img className='w-full h-full bg-cover object-cover' src={MobBannerImg} alt='Mobile Banner Image'/>
+                        <img className='w-full h-full bg-cover object-cover' src={MobBannerImg} alt=''/>
                     </div>
                     <button onClick={() => {setExploreModel(true); setModal(true)}} className='border font-RobotoFlex border-white rounded py-2 px-6 font-[600] text-[14px] text-center text-white z-10'>
                         Explore

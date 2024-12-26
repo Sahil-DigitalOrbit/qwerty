@@ -38,7 +38,7 @@ const ProductsPage = () => {
         Herbal Tea
       </h1>
       <div className="relative md:block hidden w-full h-[395px]">
-        <img src="https://s3-alpha-sig.figma.com/img/b627/c589/b1fa4df9a602b29ded617de2e0478e41?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T1ZslKdlW~2MQpFh3PmSy8NYeadvUk~l3LUbvGbl9lBZ1Xe3D7cUJKFRMB6cqno04kY2h4ApqYpG9QDQgRUIhYPKeoyrePWJt9cNMmM-m9v-1kA8AOj8vWnDY4nVJx0mK~IyRRWgh1c4TsCF2fYmnxdBu0-TdQiemApRjxYH1m3a8dtZ28RdpIkKvLVTBs6XB9KLtbhczB9WLKL9lEkg-Zl6Sb~Ooo1KlQuU5oQz09ednBAyxyWejzCXv0RZ9anbJzuiJyxzQ1WlZia1x1bOaBLmym78PfwJ45T-eoMMOtbfVJrQpPz5LEBGxWuIQUHhO9KKBptgmNKvLRX2q2xoYQ__" alt="Shop Image"
+        <img src="https://s3-alpha-sig.figma.com/img/b627/c589/b1fa4df9a602b29ded617de2e0478e41?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T1ZslKdlW~2MQpFh3PmSy8NYeadvUk~l3LUbvGbl9lBZ1Xe3D7cUJKFRMB6cqno04kY2h4ApqYpG9QDQgRUIhYPKeoyrePWJt9cNMmM-m9v-1kA8AOj8vWnDY4nVJx0mK~IyRRWgh1c4TsCF2fYmnxdBu0-TdQiemApRjxYH1m3a8dtZ28RdpIkKvLVTBs6XB9KLtbhczB9WLKL9lEkg-Zl6Sb~Ooo1KlQuU5oQz09ednBAyxyWejzCXv0RZ9anbJzuiJyxzQ1WlZia1x1bOaBLmym78PfwJ45T-eoMMOtbfVJrQpPz5LEBGxWuIQUHhO9KKBptgmNKvLRX2q2xoYQ__" alt="Shop"
         className="w-full h-full object-cover bg-cover"/>
         <h1 className="absolute bg-[#39111270] text-white text-[50px] font-[400] font-baskervville text-center top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%]  w-[700px] ">
           Fresh from our <span className="italic">tea gardens</span> to your cup

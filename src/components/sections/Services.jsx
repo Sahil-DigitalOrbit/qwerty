@@ -20,15 +20,15 @@ function Services() {
                 </p>
                 <div className='flex items-center justify-between gap-10 font-baskervville'>
                     <motion.div {...slideAnimation('right')} className='flex flex-col items-center justify-center gap-10  bg-[#FFF5E7] rounded-full lg:w-[230px] lg:h-[350px] md:w-[160px] md:h-[260px]'>
-                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' src={ServiceImg1} />
+                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' alt='' src={ServiceImg1} />
                         <p className='text-[#7D806A] italic font-[400] lg:text-[28px] md:text-[18px] text-center'>organic Products</p>
                     </motion.div>
                     <div className='flex flex-col items-center justify-center gap-10 bg-[#FFF5E7] rounded-full lg:w-[230px] lg:h-[350px] md:w-[160px] md:h-[260px]'>
-                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' src={ServiceImg2} />
+                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' alt='' src={ServiceImg2} />
                         <p className='text-[#7D806A] italic font-[400] lg:text-[28px] md:text-[18px] text-center'>Great customer <br/>service</p>
                     </div>
                     <motion.div {...slideAnimation('left')} className='flex flex-col items-center justify-center gap-10 bg-[#FFF5E7] rounded-full lg:w-[230px] lg:h-[350px] md:w-[160px] md:h-[260px]'>
-                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' src={ServiceImg3} />
+                        <img className='lg:w-20 lg:h-20 md:w-16 md:h-16 object-cover filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90' alt='' src={ServiceImg3} />
                         <p className='text-[#7D806A] italic font-[400] lg:text-[28px] md:text-[18px] text-center'>Natural <br/> Ingredients</p>
                     </motion.div>
                 </div>
@@ -36,12 +36,12 @@ function Services() {
             <motion.div 
                 {...slideAnimation('right','0deg')} 
                 className='absolute w-[300px] h-[130px] scale-x-100 scale-y-75 -bottom-0 -right-24'>  
-                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-90" src={ReviewImg} />
+                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-90" alt='' src={ReviewImg} />
             </motion.div>
             <motion.div
             {...slideAnimation('right','45deg')}
             className='absolute w-[400px] h-[200px] transform rotate-45 scale-x-100 scale-y-75 -right-32 top-1/2'>   
-                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-75" src={ReviewImg} />
+                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-75" alt='' src={ReviewImg} />
             </motion.div>
         </section>
     )

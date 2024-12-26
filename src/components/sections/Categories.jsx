@@ -73,7 +73,7 @@ function Categories() {
                                             <Link to={`${product.name}`}>
                                                 <img className="w-full h-full object-cover"
                                                     src={product.image || 'placeholder-image.jpg'} 
-                                                    alt={product.name}
+                                                    alt=""
                                                 />
                                             </Link>
                                         </div>
@@ -98,12 +98,12 @@ function Categories() {
             <motion.div
             {...slideAnimation('left','-28deg','0','-1')}
                 className='absolute hidden md:block -left-52 -bottom-32'>
-                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-90" src={ReviewImg}  />
+                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-90" alt='' src={ReviewImg}  />
             </motion.div>
             <motion.div 
             {...slideAnimation('left',0,-0.75,-1)}
                 className='absolute hidden md:block -left-56 bottom-5'>
-                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-75" src={ReviewImg}  />
+                <img className="object-cover w-full h-full filter brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90 scale-75" alt='' src={ReviewImg}  />
             </motion.div>
         </section>
     )

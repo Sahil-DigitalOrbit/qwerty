@@ -23,7 +23,7 @@ function Blog() {
           animate={{ x: isInView ? "0%" : "-100%", rotate: 55 , right: -380, bottom: -160,}} 
           transition={{ duration: 1, ease: "easeInOut" }} 
           className='absolute w-[300px] h-[130px]'>  
-          <img className="object-cover w-full h-full filter overflow-visible brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90" src={AboutImage} />
+          <img className="object-cover w-full h-full filter overflow-visible brightness-0 invert-[0.5] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-90" alt='' src={AboutImage} />
         </motion.div>
     </section>
   )

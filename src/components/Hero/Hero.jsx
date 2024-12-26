@@ -40,7 +40,7 @@ const Carousel = ({product}) => {
         <div className="">
             <div className='flex flex-col md:flex-row-reverse lg:flex-col items-center md:items-start justify-start gap-10'>
                 <div className='relative w-[303px] h-[360px] md:w-[564px] md:h-[658px]'>
-                    <img className='relative w-full h-full bg-cover object-cover'  src={product.image[currentIndex]} alt={`Slide ${currentIndex + 1}`} 
+                    <img className='relative w-full h-full bg-cover object-cover'  src={product.image[currentIndex]} alt="" 
                     onMouseMove={handleZoomImage} onMouseLeave={handleLeaveZoomImage} 
                     />
                     { currentIndex < product.image.length - 1 &&  (
@@ -62,7 +62,7 @@ const Carousel = ({product}) => {
                 {/* Windows only */}
                 <div className='hidden md:flex md:flex-col lg:flex-row w-[120px] h-[108px] md:w-[140px] md:h-[150px] items-center gap-4'>
                     {product.image.map((img, index) => (
-                        <img key={index} className='w-full h-full object-cover bg-cover' src={img} alt={`${product.name} thumbnail ${index + 1}`}/>
+                        <img key={index} className='w-full h-full object-cover bg-cover' src={img} alt=""/>
                     ))}
                 </div>
             </div>

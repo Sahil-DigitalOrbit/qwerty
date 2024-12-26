@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaRegHeart } from 'react-icons/fa';
 import { IoBagSharp } from "react-icons/io5";
 import { CartButton } from '../Buttons/CartButton';
 import { WishlistButton } from '../Buttons/WishlistButton';
@@ -10,7 +9,7 @@ function UniqueCard({ product }) {
         <div>
             <div key={product.id} className='flex flex-col gap-2 lg:w-[240px] md:w-[180px] w-[140px]'>
                 <div className='lg:w-[240px] lg:h-[280px] md:w-[240px] md:h-[250px] w-[140px] h-[168px] bg-[#FFF7DF] flex items-center justify-center'>
-                    <img className='w-[60%] h-[60%] md:w-[60%] md:h-[60%] lg:w-[60%] lg:h-[60%] object-cover' src={product.image} alt='product image' />
+                    <img className='w-[60%] h-[60%] md:w-[60%] md:h-[60%] lg:w-[60%] lg:h-[60%] object-cover' src={product.image} alt='' />
                 </div>
                 <div className='flex items-center gap-4'>
                     <IoBagSharp className='text-[#7D806A] md:w-6 md:h-6 w-4 h-4'/>

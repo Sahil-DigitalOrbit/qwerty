@@ -47,7 +47,7 @@ function Header() {
         <header className={`bg-headerBg left-0 right-0 top-0 sticky z-30 ${mobileMenu || searchForm ? 'shadow-2xl z-50' : 'shadow-xl'} transition-shadow`}>
         <motion.div className='relative max-w-[1200px] mx-auto flex items-center justify-between px-4 md:px-0 header'>
                 <Link to={'/'} className='text-[#6F5B35]'>
-                    <img className='w-[120px] h-[80px] bg-cover filter brightness-0 invert-[0.2] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-100' src={logo} alt='Website Logo' />
+                    <img className='w-[120px] h-[80px] bg-cover filter brightness-0 invert-[0.2] sepia-[1] saturate-[3] hue-rotate-[30deg] opacity-100' src={logo} alt='' />
                 </Link>
                 <div className='hidden md:block'>
                     <nav className='flex items-center justify-between gap-10 text-[#6F5B35] font-baskervville font-[400] text-[16px]'>
