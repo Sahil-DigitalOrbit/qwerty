@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { AiOutlineClose } from 'react-icons/ai';
 import { FaGoogle } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';

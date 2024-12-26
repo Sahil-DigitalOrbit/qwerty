@@ -8,7 +8,6 @@ const GlobalContext = ({ children }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [exploreModel, setExploreModel] = useState(false);
   const [filter, setFilter] = useState(false);
-  const [accountPage, setAccountPage] = useState('My Account')
 
 
   return (

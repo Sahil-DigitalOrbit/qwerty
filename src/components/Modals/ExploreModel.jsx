@@ -1,11 +1,11 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { context } from '../../context/context'
 import { motion } from 'framer-motion'
 import { fadeAnimation } from '../../config/motion'
 
 export const ExploreModel = () => {
-    const { exploreModel, setExploreModel, setModal } = useContext(context);
+    const {  setExploreModel, setModal } = useContext(context);
 
     function closeExplore() {
         setExploreModel(false);

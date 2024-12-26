@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { products } from "../assets/data/data";
 import {
   IoIosArrowBack,
@@ -116,7 +116,7 @@ const ProductsPage = () => {
           ))}
           </div>
           <div>
-          {(sortDirection || filterApplied.length!=0) && <button className="underline text-headerText text-end" onClick={removeAllFilterDirection}>
+          {(sortDirection || filterApplied.length!==0) && <button className="underline text-headerText text-end" onClick={removeAllFilterDirection}>
           Clear All
           </button>}
           </div>

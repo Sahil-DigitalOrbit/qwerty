@@ -53,7 +53,7 @@ export const FilterModal = ({ setFilterApplied }) => {
               <IoIosArrowDown />
             </button>
           </h5>
-          {dropTab == "weight" && (
+          {dropTab === "weight" && (
             <motion.span
               className="homo-dropDown-weight my-2 flex flex-wrap overflow-hidden"
               initial={{ height: "0" }}

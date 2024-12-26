@@ -8,8 +8,7 @@ import { slideAnimation } from '../../config/motion';
 
 function Services() {
     const sectionRef = useRef(null);
-    const isInView = useInView(sectionRef, { once: false, margin: "-50% 0px" });
-
+    
     return (
         <section ref={sectionRef} className='my-40 bg-[#FFECCE30] relative md:block hidden'>
             <div className='flex flex-col items-center justify-between gap-10 py-10'>

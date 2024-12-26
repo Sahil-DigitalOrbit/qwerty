@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { products } from "../../assets";
 import { CartCard } from ".././Cards//CartCard";
 import { AnimatePresence, motion } from "framer-motion";
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 
 export const CartModal = () => {
-  const { model, setModal, setCart } = useContext(context);
+  const {  setModal, setCart } = useContext(context);
 
   function close() {
     setModal(false);

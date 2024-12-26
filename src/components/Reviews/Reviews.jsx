@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
+import { IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 
 function Reviews() {
