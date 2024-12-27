@@ -7,7 +7,7 @@ module.exports = {
         'linear-dark': 'linear-gradient(to top, rgba(255, 255, 255, 0), rgba(19, 18, 18, 1))',
       },
       colors: {
-        headerText: "#6F5B35",
+        headerText: "red",
         headerBg: '#FFFDEC'
       },
       fontFamily: {
